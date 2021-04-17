@@ -1,0 +1,185 @@
+{
+  "hand": {
+    "pot": 0,
+    "board": [
+      {"color": "d", "value": "9"},
+      {"color": "s", "value": "8"},
+      {"color": "h", "value": "9"},
+      {"color": "d", "value": "2"},
+      {"color": "c", "value": "2"}
+    ],
+    "players": [
+      {
+        "name": "PlumbBobcat",
+        "stack": 1500,
+        "position": "button",
+        "status": true,
+        "hand": [],
+        "actions": [
+          {
+            "id": 9,
+            "moment": "preflop",
+            "type": "fold",
+            "value": 0
+          }
+        ],
+        "result": 0
+      },
+      {
+        "name": "perepeppepe",
+        "stack": 1500,
+        "position": "small blind",
+        "status": true,
+        "hand": [],
+        "actions": [
+          {
+            "id": 1,
+            "moment": "preflop",
+            "type": "sb",
+            "value": 10
+          },
+          {
+            "id": 10,
+            "moment": "preflop",
+            "type": "fold",
+            "value": 0
+          }
+        ],
+        "result": -10
+      },
+      {
+        "name": "HoneyBuns96",
+        "stack": 1500,
+        "position": "big blind",
+        "status": true,
+        "hand": [],
+        "actions": [
+          {
+            "id": 2,
+            "moment": "preflop",
+            "type": "bb",
+            "value": 20
+          },
+          {
+            "id": 11,
+            "moment": "preflop",
+            "type": "fold",
+            "value": 0
+          }
+        ],
+        "result": -20
+      },
+      {
+        "name": "2Legit1900",
+        "stack": 1500,
+        "position": "UTG",
+        "status": false,
+        "hand": [],
+        "actions": [
+          {
+            "id": 3,
+            "moment": "preflop",
+            "type": "fold",
+            "value": 0
+          }
+        ],
+        "result": 0
+      },
+      {
+        "name": "looper549",
+        "stack": 1500,
+        "position": "UTG+1",
+        "status": true,
+        "hand": [],
+        "actions": [
+          {
+            "id": 4,
+            "moment": "preflop",
+            "type": "fold",
+            "value": 0
+          }
+        ],
+        "result": 0
+      },
+      {
+        "name": "badgdj",
+        "stack": 1500,
+        "position": "MP",
+        "status": true,
+        "hand": [],
+        "actions": [
+          {
+            "id": 5,
+            "moment": "preflop",
+            "type": "fold",
+            "value": 0
+          }
+        ],
+        "result": 0
+      },
+      {
+        "name": "Swithan",
+        "stack": 1500,
+        "position": "LJ",
+        "status": true,
+        "hand": [
+          {"color": "h", "value": "A"},
+          {"color": "s", "value": "K"}
+        ],
+        "actions": [
+          {
+            "id": 6,
+            "moment": "preflop",
+            "type": "raise",
+            "value": 70
+          },
+          {
+            "id": 12,
+            "moment": "preflop",
+            "type": "call All-In",
+            "value": 1430
+          }
+        ],
+        "result": -1500
+      },
+      {
+        "name": "sergej275",
+        "stack": 1500,
+        "position": "HJ",
+        "status": true,
+        "hand": [],
+        "actions": [
+          {
+            "id": 7,
+            "moment": "preflop",
+            "type": "call",
+            "value": 70
+          },
+          {
+            "id": 13,
+            "moment": "preflop",
+            "type": "fold",
+            "value": 0
+          }
+        ],
+        "result": -70
+      },
+      {
+        "name": "UnCrownedKings",
+        "stack": 1500,
+        "position": "CO",
+        "status": true,
+        "hand": [],
+        "actions": [
+          {
+            "id": 8,
+            "moment": "preflop",
+            "type": "raise All-In",
+            "value": 1500
+          }
+        ],
+        "result": 3100
+      }
+    ]
+  }
+}
