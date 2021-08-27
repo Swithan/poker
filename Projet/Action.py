@@ -20,3 +20,6 @@ class Action:
     @property
     def number(self):
         return self._number
+
+    def __str__(self):
+        return f'''{self.moment}, {self.action}, {self.value} '''

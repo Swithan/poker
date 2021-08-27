@@ -10,3 +10,12 @@ class Card:
     @property
     def number(self):
         return self._number
+
+    def __str__(self):
+        return f'''
+ _____
+|     |
+|  {self.number}  |
+|  {self.color}  |
+|_____|
+'''

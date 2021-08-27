@@ -1,5 +1,5 @@
-from .Action import Action
-from .Card import Card
+from Action import Action
+from Card import Card
 
 
 class Player:
@@ -44,3 +44,12 @@ class Player:
     @property
     def result(self):
         return self._result
+
+    def __str__(self):
+        return f'''
+    Player : {self.name}
+    Stack : {self.stack+self.result}
+    Position : {self.position}
+
+    Result : + {self.result}
+        '''
